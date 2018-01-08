@@ -1,0 +1,14 @@
+*{padding:0;margin:0;list-style: none;}
+.lf{float: left;}
+.rt{float: right;}
+.clear{clear: both;}
+.tab-ul .tab-li{float: left;}
+.tab-li>a{padding:10px 20px;display: block;}
+.tab{width:50%;}
+.tab-main{width:100%;}
+.tab-item{height: 200px;display: none;}
+.current{display: block;}
+.tab-ul{border-bottom: 1px solid #ddd;}
+.tab-ul>li.active>a{border: 1px solid #ddd;border-bottom: 2px solid #fff;
+    position: relative;
+    bottom: -1px;}
